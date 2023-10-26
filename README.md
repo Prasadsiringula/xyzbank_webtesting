@@ -19,5 +19,7 @@ it will generate a "ackage.json file" in which we will give few required package
 To get an proper idea  about list of  files which are installed  
 we use "pip list" command 
 once setup is done we will check working of npm with command (npm run setup).
-if it working well we will run npm and  genrates e2e allure report with (npm run e2e)  command   
+if it working well we will run npm and  genrates e2e allure report with (npm run e2e) command   
+
+  
 
