@@ -4,17 +4,27 @@
   "description": "playwright xyzbank website",
   "main": "index.js",
   "scripts": {
+    "setup": "python3 -m pip install --upgrade pip && pip install -r requirements.txt && npm install && npm i -d allure-commandline && playwright install && pip install --upgrade setuptools && pip install --upgrade distribute", 
     "test": "echo \"Error: no test specified\" && exit 1",
-    "login_test": "pytest --headed -s"
+    "login_test": "pytest -s -v --alluredir=allure-results",
+    "gen-allure": "allure generate ./allure-results --clean && allure open ./allure-report",
+    "clean-allure": "del-cli --force allure-results && del-cli --force allure-report",
+    "e2e": "npm run clean-allure && npm run login_test && npm run gen-allure"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Prasadsiringula/xyzbank_webtesting.git"
   },
-  "author": "",
+  "author": "prasad",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Prasadsiringula/xyzbank_webtesting/issues"
   },
-  "homepage": "https://github.com/Prasadsiringula/xyzbank_webtesting#readme"
+  "homepage": "https://github.com/Prasadsiringula/xyzbank_webtesting#readme",
+  "dependencies": {
+    "@playwright/test": "^1.39.0",
+    "allure-commandline": "^2.24.1",
+    "allure-playwright": "^2.9.2",
+    "del-cli": "^5.1.0"
+  }
 }

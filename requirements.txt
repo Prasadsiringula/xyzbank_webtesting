@@ -1,0 +1,12 @@
+pip
+certifi
+asyncio
+load-dotenv
+flake8 
+pytest-playwright
+playwright
+pytest-reporter-html1
+pytest-xdist
+pytest_dotenv
+pytest-asyncio
+allure-pytest
