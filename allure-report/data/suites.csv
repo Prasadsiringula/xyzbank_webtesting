@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Oct 26 17:35:11 AEDT 2023","Thu Oct 26 17:35:14 AEDT 2023","3104","Playwrightdemo","test_xyzbank3","","","","testxyzbanklogout",""
+"passed","Thu Oct 26 17:34:58 AEDT 2023","Thu Oct 26 17:35:00 AEDT 2023","2204","Playwrightdemo","test_xyzbank1","","","","testxyzbanklogin",""
+"passed","Thu Oct 26 17:35:04 AEDT 2023","Thu Oct 26 17:35:08 AEDT 2023","3432","Playwrightdemo","test_xyzbank2addCustomer","","","","testaddCustomer",""
