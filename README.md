@@ -1,6 +1,17 @@
 # xyzbank_webtesting
 testing xyzbank website playwright
-To setup npm we will use command (npm init).
+#1. To setup npm we will use command ```npm init```. </br>
+#2. Update Pacakage .json with the below
+  "dependencies": {
+    "@playwright/test": "^1.39.0",
+    "allure": "^0.0.0",
+    "allure-commandline": "^2.24.1",
+    "allure-playwright": "^2.9.2",
+    "del-cli": "^5.1.0",
+    "express": "^4.18.2"
+  } 
+then execute ```npm update``` </br>
+
 it will ask github link and author name 
 it will generate a "package.json file" in which we will give few required package names for npm setup  as mention below
     "setup": "python3 -m pip install --upgrade pip && pip install -r requirements.txt && npm install && npm i -d allure-commandline && playwright install && pip install --upgrade setuptools && pip install --upgrade distribute",
