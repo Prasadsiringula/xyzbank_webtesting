@@ -33,5 +33,5 @@ then execute ```npm update``` </br>
 #10.To get an proper idea  about list of  files which are installed  
 we use ```pip list``` </br> command 
 #11.once setup is done we will check working of npm with command ```npm run setup```.
-#12.if it working well we will run npm and  genrates e2e allure report with ```npm run e2e``` </br> command..,  
+#12.if it working well we will run npm and  genrates e2e allure report with ```npm run e2e``` </br> command.  
 
