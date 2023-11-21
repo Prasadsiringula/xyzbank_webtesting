@@ -4,7 +4,7 @@
   "description": "playwright xyzbank website",
   "main": "index.js",
   "scripts": {
-    "setup": "python3 -m pip install --upgrade pip && pip install -r requirements.txt && npm install && npm i -d allure-commandline && playwright install && pip install --upgrade setuptools ",
+    "setup": "python3 -m pip install --upgrade pip && pip install -r requirements.txt && npm install && npm i -d allure-commandline && playwright install && pip install --upgrade setuptools && pip install --upgrade distribute",
     "test": "echo \"Error: no test specified\" && exit 1",
     "login_test": "pytest -s -v --alluredir=allure-results",
     "gen-allure": "allure generate ./allure-results --clean && allure open ./allure-report",
