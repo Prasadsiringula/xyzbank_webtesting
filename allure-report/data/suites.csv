@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Oct 26 22:26:33 IST 2023","Thu Oct 26 22:26:36 IST 2023","2945","Playwrightdemo","test_xyzbank2addCustomer","","","","testaddCustomer",""
-"passed","Thu Oct 26 22:26:28 IST 2023","Thu Oct 26 22:26:30 IST 2023","1712","Playwrightdemo","test_xyzbank1","","","","testxyzbanklogin",""
-"passed","Thu Oct 26 22:26:39 IST 2023","Thu Oct 26 22:26:42 IST 2023","2426","Playwrightdemo","test_xyzbank3","","","","testxyzbanklogout",""
